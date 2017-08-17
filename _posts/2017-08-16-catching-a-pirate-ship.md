@@ -15,20 +15,6 @@ I originally heard it in the University of Waterloo's Computer Science Club. Hav
 
 > A pirate ship is located on a one-dimensional line. At time 0, the ship is at location S. With each time interval, the ship moves V units to the right (if V is negative, the ship is moving left). S and V are fixed integers, but they are unknown to you. You are to destroy the ship. The means by which you can attempt to do that is: at each time interval (starting at time 0), you can choose a location on the line and blindly shoot at it. That is, you will ask a question like “Is the ship currently at location 27?” and you will get a yes/no answer. Devise an algorithm that will eventually find the ship.
 
-## Analysis
-
-This puzzle has a few attributes which are common among puzzles that I consider to be especially well crafted:
-
-1. It isn't a trick/outside-the-box question. That is, the solution does not depend on a particular interpretation of the question. There is only one "correct" interpretation of this puzzle, and anyone sharing it ought to do their best to be as clear about it as possible.
-
-1. It is possible to solve it with just pencil and paper, or even in your head. The solution does not rely on executing tedious math, or playing around with a compass and straightedge.
-
-  - Furthermore, I think that using 'aids' are not likely to be helpful, as the puzzle does not lend itself very well to brute-force attempts at solving it.
-
-1. The intended answer to this puzzle is self-evident. That is, it may be difficult to find the solution, but once you have it, it's comparatively easy to verify that the solution is correct.
-
-1. The solution to the puzzle can be broken down into a fairly well-defined set of related concepts, which come together to give the solution.
-
 ## Solution
 
 **Do not continue reading** if you wish to solve the puzzle for yourself.
@@ -85,5 +71,18 @@ Thus, the sequence of places that we will shoot, in order, looks like this:
 What we have done here is described something called a [Bijection](https://en.wikipedia.org/wiki/Bijection) between the Natural numbers, and the set of all pairs of Integers.
 
 Hopefully, I have been able to convince you that by following this procedure, no matter where the ship starts, and no matter where it's going, you will eventually be able to shoot it, and so the puzzle has been solved.
+
+## Analysis
+
+This puzzle has a few attributes which are common among puzzles that I consider to be especially well crafted:
+
+1. It isn't a trick/outside-the-box question. That is, the solution does not depend on a particular interpretation of the question. There is only one "correct" interpretation of this puzzle, and anyone sharing it ought to do their best to be as clear about it as possible.
+
+1. It is possible to solve it with just pencil and paper, or even in your head. The solution does not rely on executing tedious math, or playing around with a compass and straightedge.
+  - Furthermore, I think that using 'aids' are not likely to be helpful, as the puzzle does not lend itself very well to brute-force attempts at solving it.
+
+1. The intended answer to this puzzle is self-evident. That is, it may be difficult to find the solution, but once you have it, it's comparatively easy to verify that the solution is correct.
+
+1. The solution to the puzzle can be broken down into a fairly well-defined set of related concepts, which come together to give the solution.
 
 I hope you enjoyed this write up!
